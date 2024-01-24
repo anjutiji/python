@@ -1,0 +1,27 @@
+#fibanocci series
+f=1
+s=1
+i=3
+n=int(input("Enter the limit"))
+print("The series is:")
+print(f)
+print(s)
+while i<=n:
+    t=f+s
+    print(t)
+    f=s
+    s=t
+    i=i+1
+    
+
+    
+
+********OUTPUT********
+
+Enter the limit5
+The series is:
+1
+1
+2
+3
+5
