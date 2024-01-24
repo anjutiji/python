@@ -1,0 +1,13 @@
+#to concatenate three lists
+list= ['Anju', 'Anu', 'Ammu', 'Podi']
+ls=[22,9,2003,2004]
+fs=[1,2,22,33]
+print(ls[1])
+print(list+ls+fs)
+
+
+
+
+  ********OUTPUT*********
+  9
+['Anju', 'Anu', 'Ammu', 'Podi', 22, 9, 2003, 2004, 1, 2, 22, 33]
