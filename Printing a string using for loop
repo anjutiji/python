@@ -1,0 +1,29 @@
+#program using for loop
+str = input("Enter the string")
+for i in str:
+    print(i)
+
+#to print all in one line
+str = input("Enter the string")
+for i in str:
+    print(i, end="")
+    
+
+
+*******OUTPUT*******
+Enter the string All is Well
+ 
+A
+l
+l
+ 
+i
+s
+ 
+W
+e
+l
+l
+(printed in one line)
+Enter the string ALL IS WELL
+ALL IS WELL
