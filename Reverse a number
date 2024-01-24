@@ -1,0 +1,13 @@
+# to reverse a number
+no= int(input("Enter the number to be reversed"))
+rev=0
+while no>0:
+    rev=rev*10+no%10
+    no=no//10
+print("The reversed number is", rev)
+
+
+
+********OUTPUT*********
+Enter the number to be reversed 546
+The reversed number is 645
