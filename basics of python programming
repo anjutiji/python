@@ -1,0 +1,33 @@
+Python - Basics
+•	Interpreter
+•	Object oriented
+•	High level programming language
+•	Open-source software
+Uses
+1.	Web development
+2.	Desktop Applications
+3.	Machine Learning
+4.	Natural Language Processing
+Example
+Instagram, YouTube, Google 
+String
+print (str) – prints the string str
+print (str*n) – prints the string n times
+print (str+”Test”) – prints the concatenated string
+print (len (str))- to print the length of the string str
+
+Lists
+print (list) – to print the complete list
+print (list[n]) – print the nth element in the list
+print (list +ls) – to print the concatenated lists
+print(len(list)) – to print the length of the list
+print (max(list)) – to print the maximum element in the list
+print (min(list)) -  to print the minimum element in the list
+
+Searching, Sorting, Hashing
+Sorting
+To sort an array 
+•	Arrayname.sort()
+To sort an array in reverse order
+•	Arrayname.sort(reverse=True)
+
