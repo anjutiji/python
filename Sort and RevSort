@@ -1,0 +1,19 @@
+ # to sort an array
+fruits=["Lemon", "Orange", "Apple", "Watermelon"]
+fruits.sort()
+print("The sorted array is:\n")
+for i in fruits:
+     print(i, end= " ")
+fruits.sort(reverse=True)
+print("\nThe array sorted in reverse order is:\n")
+for i in fruits:
+    print(i, end=" ")
+    
+ 
+*********OUTPUT********
+
+The sorted array is:
+Apple Lemon Orange Watermelon 
+
+The array sorted in reverse order is:
+Watermelon Orange Lemon Apple 
