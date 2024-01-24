@@ -1,0 +1,6 @@
+no =int(input("Enter the number"))
+no1=no
+if no1<0:
+    no1= no1*-1
+    print("Absolute value of the number", no, "is", no1)
+    
