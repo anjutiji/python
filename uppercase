@@ -1,0 +1,2 @@
+name=input("Enter your name") #to convert the string into uppercase
+print("My name is "+ name.upper())
