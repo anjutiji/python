@@ -1,0 +1,5 @@
+h=[1,2,3,4,5]
+print("3 in h", 3 in h)
+print("6 in h", 6 in h)
+print("3 not in h", 3 not in h)
+print("6 not in h", 6 not in h)
