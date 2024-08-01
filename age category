@@ -1,0 +1,12 @@
+#age category
+age=int(input("Enter the age: "))
+if(age<=12):
+    category='Child'
+elif(age<=19):
+    category='Teenager'
+elif(age<=64):
+    category='Adult'
+else:
+    category='Seniors and above'
+
+print("The category is "+ str(category))
