@@ -1,0 +1,5 @@
+age=float(input("Enter your age in years"))
+print("Your age is "+ str(age))
+year_sec=365*24*60*60
+age_sec=age*year_sec
+print("Your age in seconds is "+ str(age_sec))
