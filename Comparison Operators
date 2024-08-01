@@ -1,0 +1,9 @@
+a=10
+b=3
+print("Comparison Operators")
+print("Equal:a==b:", a==b)
+print("Not Equal: a!=b:", a!=b)
+print("Greater than: a>b:", a>b)
+print("Less than: a<b",a<b)
+print("Greater than or equal to: a>=b:", a>=b)
+print("Less than or equal to: a<=b:", a<=b)
