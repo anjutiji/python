@@ -1,0 +1,6 @@
+#vowel check
+str=input("Enter the character ").lower()
+if str in 'aeiou':
+    print("The character is vowel")
+else:
+    pass
