@@ -1,0 +1,6 @@
+x = True
+y = False
+print("Logical Operators")
+print("Logical AND ", x & y)
+print("Logical OR ", x or y)
+print("Logical NOT ", not x)
