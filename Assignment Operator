@@ -1,0 +1,12 @@
+e=10
+print("Assignment Operators")
+e+=5
+print("e+=5",e)
+e-=5
+print("e-=3",e)
+e*=2
+print("e*=2",e)
+e/=4
+print("e/=4",e)
+e%=3
+print("e%=3",e)
