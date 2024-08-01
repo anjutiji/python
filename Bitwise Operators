@@ -1,0 +1,9 @@
+c=10
+d=4
+print("Bitwise Operators")
+print("Bitwise AND:c & d =  ", c&d)
+print("Bitwise OR:c | d = ", c|d)
+print("Bitwise XOR:c ^ d = ", c ^ d)
+print("Bitwise NOT:~d = ", ~d)
+print("Bitwise Left Shift:c << 1 = ", ~c)
+print("Bitwise Right Shift:c >> 1 = ", ~c)
