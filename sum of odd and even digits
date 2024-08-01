@@ -1,0 +1,37 @@
+#sum of the digits
+num=int(input("Enter the number"))
+total=0 # if we skip this step a error telling the variable total is not defined occurs
+while num>0:
+    rem=num%10
+    total=total+rem
+    num//=10
+print(f"The sum of the digits {total}")
+
+
+total=0
+while True:
+    num =int(input("enter the number (0 to stop)"))
+    if num==0:
+        break
+    if(num%2!=0):
+        total+=num
+    
+print(f"The sum of all odd number {total}")
+
+total=0
+while True:
+    num =int(input("enter the number (0 to stop)"))
+    if num==0:
+        break
+    if(num%2==0):
+        total+=num
+    
+print(f"The sum of all even number {total}")
+
+total=0
+while True:
+    num =int(input("enter the number (0 to stop)"))
+    if(total>10):
+        break
+    total+=num
+print(f"The sum is {total}")
