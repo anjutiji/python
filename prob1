@@ -1,0 +1,9 @@
+#read a positive number and stop the loop when a neg number is entered
+total=0
+
+while True:
+    n= int(input("Enter the number"))
+    if n<0:
+        break
+    total+=n
+print(f"The sum of all positive numbers is {total}")
