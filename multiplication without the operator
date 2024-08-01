@@ -1,0 +1,17 @@
+x=int(input("Enter the first number"))
+y=int(input("Enter the second number"))
+
+def multiply(x,y):
+ 
+	if(y == 0):
+		return 0
+
+	if(y > 0 ):
+		return (x + multiply(x, y - 1))
+
+	if(y < 0 ):
+		return -multiply(x, -y)
+	
+print(multiply(x,y))
+
+
