@@ -1,0 +1,7 @@
+#divisible or not
+num1=float(input("Enter the 1st number: "))
+num2=float(input("Enter the 2nd number: "))
+if(num1%num2==0 and num2!=0):
+    print(str(num1)+ " is divisible by "+ str(num2))
+else:
+    print(str(num1)+" is not divisible by "+ str(num2))
