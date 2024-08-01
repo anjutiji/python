@@ -1,0 +1,5 @@
+print("Identity Operators")
+f=10
+g=10
+print("f is g: ", f is g)
+print("f is not: ", f is not g)
